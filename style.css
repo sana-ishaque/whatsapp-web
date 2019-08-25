@@ -1,0 +1,146 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+}
+
+ul {
+    overflow: scroll;
+    -webkit-overflow-scrolling: touch;
+}
+header{
+    max-width: 30%;
+    width: 100%;
+}
+#header-top {
+    height: 33px;
+    /* max-width: 349px; */
+    background-color: #eeeeee;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px;
+    border-right: 1px solid lightgrey;
+}
+
+#icons {
+    margin-right: 14px;
+}
+
+.fa-search {
+    margin-right: 23px;
+}
+
+.fas {
+    color: #767d81;
+}
+
+#search {
+    background-color: #f8f8f8;
+    /* max-width: 377px; */
+    height: 50px;
+    display: flex;
+    border-bottom: 1px solid lightgrey;
+    border-right: 1px solid lightgrey;
+}
+
+.msg {
+    font-size: 11px;
+    color: #828282;
+}
+
+.time p:nth-child(1) {
+    color: #cbcbcb;
+}
+
+#inner-rim {
+    background-color: white;
+    height: 34px;
+    max-width: 90%;
+    margin: auto;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    width: 100%
+}
+
+input {
+    border: none;
+    outline: none;
+}
+
+#displayImage {
+    background-image: url(https://web.whatsapp.com/pp?e=https%3A%2F%2Fpps.whatsapp.net%2Fv%2Ft61.2469…%3D1d19912…&t=l&u=923346300993%40c.us&i=1566323785);
+    height: 40px;
+    width: 40px;
+    background-position: center;
+    border-radius: 100%;
+    background-size: contain;
+    border-radius: 100%;
+}
+
+.image {
+    height: 70px;
+    width: 70px;
+    height: 70px;
+    width: 70px;
+    border-radius: 100%;
+}
+
+.content {
+    margin-left: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-left: 15px;
+    width: 400px;
+}
+
+.content p {
+    margin: 0 0 5px 0;
+    font-size: 11px;
+    color: #8f8f8f;
+}
+
+.content h5 {
+    margin: 0px 0px 5px 0px;
+}
+
+#main-div {
+    display: flex;
+    padding: 12px;
+    border-bottom: 1px solid lightgrey;
+    background-color: white;
+    /* max-width: 337px; */
+    align-items: center;
+}
+
+.ur {
+    color: white;
+    background-color: green;
+    max-width: 20px;
+    padding: 3px 8px;
+    text-align: center;
+    border-radius: 100%;
+    font-size: 12px;
+}
+
+.time {
+    align-items: flex-end;
+    display: flex;
+    flex-direction: column;
+}
+
+.time p {
+    margin: 0 0 5px 0;
+    font-size: 11px;
+    color: white;
+}
+
+#chatDisplay {
+    background-color: #f7f9fa;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
