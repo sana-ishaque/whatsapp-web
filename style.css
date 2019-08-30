@@ -1,3 +1,9 @@
+:root {
+    --header-bg-color: #eeeeee;
+    --border-color: lightgrey;
+    --white: white;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -9,19 +15,21 @@ ul {
     overflow: scroll;
     -webkit-overflow-scrolling: touch;
 }
-header{
+
+header {
     max-width: 30%;
     width: 100%;
 }
+
 #header-top {
     height: 33px;
     /* max-width: 349px; */
-    background-color: #eeeeee;
+    background-color: var(--header-bg-color);
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 14px;
-    border-right: 1px solid lightgrey;
+    border-right: 1px solid var(--border-color);
 }
 
 #icons {
@@ -41,8 +49,8 @@ header{
     /* max-width: 377px; */
     height: 50px;
     display: flex;
-    border-bottom: 1px solid lightgrey;
-    border-right: 1px solid lightgrey;
+    border-bottom: 1px solid var(--border-color);
+    border-right: 1px solid var(--border-color);
 }
 
 .msg {
@@ -55,7 +63,7 @@ header{
 }
 
 #inner-rim {
-    background-color: white;
+    background-color: var(--white);
     height: 34px;
     max-width: 90%;
     margin: auto;
@@ -71,7 +79,7 @@ input {
 }
 
 #displayImage {
-    background-image: url(https://web.whatsapp.com/pp?e=https%3A%2F%2Fpps.whatsapp.net%2Fv%2Ft61.2469…%3D1d19912…&t=l&u=923346300993%40c.us&i=1566323785);
+    background-image: url(/image/whatsappDisp.jpg);
     height: 40px;
     width: 40px;
     background-position: center;
@@ -95,6 +103,8 @@ input {
     align-items: flex-start;
     margin-left: 15px;
     width: 400px;
+    border-bottom: 1px solid var(--border-color);
+    padding: 9px 0px;
 }
 
 .content p {
@@ -109,10 +119,8 @@ input {
 
 #main-div {
     display: flex;
-    padding: 12px;
-    border-bottom: 1px solid lightgrey;
-    background-color: white;
-    /* max-width: 337px; */
+    padding: 12px 10px;
+    background-color: var(--white);
     align-items: center;
 }
 
@@ -135,7 +143,7 @@ input {
 .time p {
     margin: 0 0 5px 0;
     font-size: 11px;
-    color: white;
+    color:  var(--white);
 }
 
 #chatDisplay {
@@ -143,4 +151,5 @@ input {
     display: flex;
     flex-direction: column;
     width: 100%;
+    max-width: 70%;
 }
