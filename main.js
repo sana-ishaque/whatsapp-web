@@ -13,7 +13,7 @@ axios.get('https://tk-whatsapp.herokuapp.com/messages')
                     <div>
                         <h5>${msgs.name}</h5>
                         <p class="msg">${msgs.firstLine}</p>
-                    </div>
+                    </div> 
                     <div class="time">
                     <p>${msgs.time}</p>    
                 <p class="ur">${msgs.numbUnread}</p>

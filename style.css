@@ -79,7 +79,7 @@ input {
 }
 
 #displayImage {
-    background-image: url(/image/whatsappDisp.jpg);
+    background-image: url(whatsappDisp.jpg);
     height: 40px;
     width: 40px;
     background-position: center;
